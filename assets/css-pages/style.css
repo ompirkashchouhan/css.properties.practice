@@ -1,0 +1,151 @@
+/* Add Font */
+@font-face {
+  font-family: 'Roboto' , sans-serif;
+  src: url('../fonts/KFOmCnqEu92Fr1Mu4mxP.ttf');
+}
+
+
+/* Body */
+
+body{
+    background-color: #ecf2f9;
+    font-family:'Roboto' ,sans-serif;
+}
+
+/* section one div */
+
+.divOne{
+    background-color: white;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 8px;
+    line-height: 1.9;
+}
+
+.divOne h1::first-letter{
+    color: #d92626;
+    font-size: 45px;
+}
+
+.divOne h1{
+    text-decoration: underline;
+    letter-spacing: 5px;
+    font-size: 35px;
+    text-shadow: 2px 2px 5px gray;
+}
+
+.divOne .uppercaseEx{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.divOne .textIn{
+    text-indent: 40px;
+}
+
+.divOne .textSh{
+    text-shadow: 2px 2px 5px rgb(0, 0, 0,0.3);
+}
+
+.divOne .capitalize{
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+a:active{
+    border: 2px solid  blue;
+}
+
+
+a:focus{
+    border: 2px solid  blue;
+}
+
+/* close Section one div */
+
+
+
+/* section two div */
+
+.divTwo{
+    margin: 15px;
+    line-height: 1.9;
+}
+
+.divTwo .twoPara{
+    text-align: justify;
+}
+
+.divTwo .twoPara::first-line{
+    text-decoration: underline;
+}
+
+.btn{
+    padding: 10px 2px;
+    letter-spacing: 3px;
+    text-indent: 2px;
+}
+
+.btn:focus{
+    background-color: red;
+}
+
+.btn:active{
+    background-color: green;
+}
+
+/* Closed section two div */
+
+
+
+/* Responsiveness Media Queries */
+
+@media only screen and (max-width: 622px) {
+    .divOne h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 564px) {
+    .divOne h1 {
+      font-size: 25px;
+      text-align: center;
+    }
+  }  
+
+  @media only screen and (max-width: 512px) {
+    .divOne h1 {
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 460px) {
+    .divOne h1 {
+      font-size: 15px;
+      text-align: center;
+    }
+  }    
+
+  @media only screen and (max-width: 407px) {
+    .divOne h1 {
+      font-size: 10px;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 360px) {
+    .divOne h1 {
+      font-size: 5px;
+      text-align: center;
+    }
+  }    
